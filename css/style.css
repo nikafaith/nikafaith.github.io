@@ -1,0 +1,361 @@
+body {
+	font-family: Raleway;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	max-width: 1000px;
+	min-width: 500px;
+	font-size: 14px;
+	margin: 0px;
+}
+
+p {
+	font-family: Raleway;
+	color: black;
+}
+
+h2 {
+	font-family: Josefin Sans;
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+
+h3 {
+	font-family: Josefin Sans;
+	color: #808080;
+	text-align: left;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+
+#iFrameCont {
+	text-align: center;
+}
+
+/*Header Styling*/
+#icon {
+	height: 40px;
+	float: left;
+}
+
+#menu {
+    text-align: right;
+    list-style-type: none;
+    float: right;
+    width: 60%;
+    font-family: Josefin Sans;
+    font-size: 14px;
+}
+
+#menu ul li {
+    display: inline;
+    padding-left: 5%;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+#menu ul li a:hover {
+    color: #EFBEBE;
+}
+
+/*Intro Styling*/
+#top {
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	line-height: 60px;
+}
+
+span {
+	border-bottom: 10px solid #efd5d5;
+}
+
+/*Work Tile Styling*/
+.work {
+	width: 29%;
+	float: left;
+	margin: 3% 2% 5% 2%;
+	border: 1px black;
+	opacity: .7;
+	box-shadow: 5px 5px 10px grey;
+}
+
+.work:hover {
+	opacity: 1.0;
+}
+
+.work_tile_pic {
+	width: 100%;
+}
+
+.work_tile_text {
+	width: 100%;
+}
+
+.work_des {
+	text-align: center;
+	color: grey;
+	font-size: 13px;
+}
+
+/*Footer Styles*/
+#footer {
+	float: left;
+	padding-top: 50px;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*AboutMe*/
+#bioPic_cont {
+	padding-top: 10%;
+	width: 35%;
+	float: left;
+}
+
+#bioPic {
+	width: 100%;
+}
+
+#biotitle_cont {
+	width: 100%;
+	float: left;
+}
+
+#biotitle {
+	font-size: 30px;
+	line-height: 45px;
+}
+
+#bioCont {
+	float:left;
+	width: 50%;
+	padding-top: 10%;
+	padding-left: 5%;
+	line-height: 25px;
+}
+
+.social {
+	height: 40px;
+	padding-top: 30px;
+	padding-right: 10px;
+}
+
+/*Petco*/
+#PetcoPic_cont {
+	padding-top: 2%;
+	width: 35%;
+	float: left;
+}
+
+#PetcoPic {
+	width: 100%;
+}
+
+#PetcoCont {
+	float:left;
+	width: 50%;
+	padding-top: 2%;
+	padding-left: 5%;
+	line-height: 25px;
+}
+
+/*CC Special*/
+#DI {
+	width: 60%;
+	float: left;
+	background-image: url("../img/CC/DI.png");
+	background-size: 100%;
+	padding: 8% 20% 8% 20%;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+/*Rugby Special*/
+.QC {
+	width: 40%;
+	margin: 5%;
+	float: left;
+	box-shadow: 10px 5px 5px grey;
+}
+
+/*work page styles*/
+.title_cont {
+	width: 100%;
+	float: left;
+}
+
+.worktitle {
+	font-size: 30px;
+	line-height: 45px;
+}
+
+.worksubtitle {
+	font-family: Josefin Sans;
+	color: #545454;
+	text-align: left;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.worksubsubtitle {
+	font-family: Josefin Sans;
+	color: #d3d3d3;
+	text-align: left;
+	font-size: 17px;
+	margin-bottom: 10px;
+}
+
+.workpic {
+	width: 100%;
+}
+
+.smallworkpic {
+	width: 100%;
+	box-shadow: 5px 5px 10px grey;
+}
+
+.pic_box {
+	width: 50%;
+	float: left;
+	padding-top: 5%;
+}
+
+.text_box {
+	width: 40%;
+	float: left;
+	padding-left: 5%;
+	padding-top: 7%;
+	padding-bottom: 14%;
+}
+
+.widetext_box {
+	width: 100%;
+	float: left;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.textCont {
+	float:left;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	padding-top: 2%;
+	line-height: 25px;
+}
+
+.screenshots {
+	width: 25%;
+	float: left;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 3%;
+	box-shadow: 5px 5px 10px grey;
+}
+
+.screenshots4 {
+	width: 20%;
+	float: left;
+	margin-left: 2.3%;
+	margin-right: 2.3%;
+	margin-top: 3%;
+}
+
+.screen_cont {
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 5%;
+	float: left;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 1000px) {    
+    #bioPic_cont {
+        width: 70%;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+    }
+
+    #bioCont {
+    	width: 80%;
+    	padding-top: 2%;
+    	padding-left: 10%;
+    	padding-right: 10%;
+    }
+
+    #PetcoPic_cont {
+        width: 60%;
+        margin-top: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #PetcoCont {
+    	width: 80%;
+    	padding-top: 2%;
+    	padding-left: 10%;
+    	padding-right: 10%;
+    }
+    
+}   
+
+@media only screen and (max-width: 950px) {    
+    .work {
+        width: 45%;
+        margin: 3% 2% 5% 2%;
+    }
+	
+	#biotitle {
+		font-size: 25px;
+	}
+
+	#bioCont {
+    	width: 90%;
+    	padding-top: 2%;
+    	padding-left: 5%;
+    	padding-right: 5%;
+    }
+
+    #PetcoCont {
+    	width: 90%;
+    	padding-top: 2%;
+    	padding-left: 5%;
+    	padding-right: 5%;
+    }   
+
+    .textCont {
+    	width: 100%;
+    	padding-left: 0%;
+    	padding-right: 0%;
+    }
+
+    .pic_box {
+    	width: 75%;
+    	padding-left: 12.5%;
+    	padding-right: 12.5%;
+    }
+
+    .text_box {
+    	width: 100%;
+ 		padding-left: 0%;
+ 		padding-right: 0%;
+ 		padding-bottom: 6%;
+    }
+
+    .workpic {
+    	width: 100%;
+    } 
+}  
+
