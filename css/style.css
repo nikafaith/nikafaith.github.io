@@ -1,5 +1,15 @@
+@font-face {
+	font-family: "Raleway Thin";
+	src: url(../fonts/RalewayThin.otf);
+}
+
+@font-face {
+	font-family: "Josefin Sans";
+	src: url(../fonts/JosefinSans.ttf);
+}
+
 body {
-	font-family: Raleway;
+	font-family: "Raleway Thin", Verdana, Tahoma;
 	width: 80%;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -10,19 +20,19 @@ body {
 }
 
 p {
-	font-family: Raleway;
+	font-family: "Raleway Thin", Verdana, Tahoma;
 	color: black;
 }
 
 h2 {
-	font-family: Josefin Sans;
+	font-family: "Josefin Sans", Verdana, Tahoma;
 	color: black;
 	text-align: center;
 	font-size: 15px;
 }
 
 h3 {
-	font-family: Josefin Sans;
+	font-family: "Josefin Sans", Verdana, Tahoma;
 	color: #808080;
 	text-align: left;
 	font-size: 17px;
@@ -44,7 +54,7 @@ h3 {
     list-style-type: none;
     float: right;
     width: 60%;
-    font-family: Josefin Sans;
+    font-family: "Josefin Sans", Verdana, Tahoma;
     font-size: 14px;
 }
 
@@ -216,6 +226,11 @@ span {
 
 .workpic {
 	width: 100%;
+}
+
+.deskss {
+	width: 100%;
+	box-shadow: 5px 5px 10px grey;
 }
 
 .smallworkpic {
