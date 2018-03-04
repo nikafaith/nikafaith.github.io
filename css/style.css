@@ -67,7 +67,7 @@ h3 {
 
 #menu ul li {
     display: inline;
-    padding-left: 5%;
+    padding-left: 8%;
 }
 
 #menu ul li a {
@@ -225,7 +225,7 @@ span {
 
 .worksubsubtitle {
 	font-family: "Dosis Light", Verdana, Tahoma;
-	color: #d3d3d3;
+	color: #A9A9A9;
 	text-align: left;
 	font-size: 17px;
 	margin-bottom: 10px;
