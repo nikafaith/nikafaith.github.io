@@ -1,15 +1,15 @@
 @font-face {
-	font-family: "Raleway Thin";
-	src: url(../fonts/RalewayThin.otf);
+	font-family: "Dosis Light";
+	src: url(../fonts/Dosis-Light.ttf);
 }
 
 @font-face {
-	font-family: "Josefin Sans";
-	src: url(../fonts/JosefinSans.ttf);
+	font-family: "Open Sans Light";
+	src: url(../fonts/OpenSans-Light.ttf);
 }
 
 body {
-	font-family: "Raleway Thin", Verdana, Tahoma;
+	font-family: "Open Sans Light", Verdana, Tahoma;
 	width: 80%;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -20,19 +20,26 @@ body {
 }
 
 p {
-	font-family: "Raleway Thin", Verdana, Tahoma;
+	font-family: "Open Sans Light", Verdana, Tahoma;
 	color: black;
 }
 
+h1 {
+	font-family: "Dosis Light", Verdana, Tahoma;
+	color: #696969;
+	font-size: 25px;
+}
+
+
 h2 {
-	font-family: "Josefin Sans", Verdana, Tahoma;
+	font-family: "Dosis Light", Verdana, Tahoma;
 	color: black;
 	text-align: center;
 	font-size: 15px;
 }
 
 h3 {
-	font-family: "Josefin Sans", Verdana, Tahoma;
+	font-family: "Dosis Light", Verdana, Tahoma;
 	color: #808080;
 	text-align: left;
 	font-size: 17px;
@@ -54,7 +61,7 @@ h3 {
     list-style-type: none;
     float: right;
     width: 60%;
-    font-family: "Josefin Sans", Verdana, Tahoma;
+    font-family: "Dosis Light", Verdana, Tahoma;
     font-size: 14px;
 }
 
@@ -77,7 +84,6 @@ h3 {
 	width: 100%;
 	float: left;
 	text-align: center;
-	font-size: 25px;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	line-height: 60px;
@@ -206,10 +212,11 @@ span {
 .worktitle {
 	font-size: 30px;
 	line-height: 45px;
+	color: #696969;
 }
 
 .worksubtitle {
-	font-family: Josefin Sans;
+	font-family: "Dosis Light", Verdana, Tahoma;
 	color: #545454;
 	text-align: left;
 	font-size: 25px;
@@ -217,7 +224,7 @@ span {
 }
 
 .worksubsubtitle {
-	font-family: Josefin Sans;
+	font-family: "Dosis Light", Verdana, Tahoma;
 	color: #d3d3d3;
 	text-align: left;
 	font-size: 17px;
