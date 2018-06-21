@@ -59,14 +59,14 @@ h3 {
     text-align: right;
     list-style-type: none;
     float: right;
-    width: 60%;
+    width: 85%;
     font-family: "Open Sans Light", Verdana, Tahoma;
     font-size: 14px;
 }
 
 #menu ul li {
     display: inline;
-    padding-left: 8%;
+    padding-left: 5%;
 }
 
 #menu ul li a {
