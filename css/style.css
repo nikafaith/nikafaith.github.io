@@ -445,3 +445,52 @@ span {
 	}
 }
 
+@media only screen and (max-width: 550px) {
+	.work {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+	
+	#biotitle {
+		font-size: 25px;
+	}
+
+	#bioCont {
+    	width: 90%;
+    	padding-top: 2%;
+    	padding-left: 5%;
+    	padding-right: 5%;
+    }
+
+    #PetcoCont {
+    	width: 90%;
+    	padding-top: 2%;
+    	padding-left: 5%;
+    	padding-right: 5%;
+    }   
+
+    .textCont {
+    	width: 100%;
+    	padding-left: 0%;
+    	padding-right: 0%;
+    }
+
+    .pic_box {
+    	width: 75%;
+    	padding-left: 12.5%;
+    	padding-right: 12.5%;
+    }
+
+    .text_box {
+    	width: 100%;
+ 		padding-left: 0%;
+ 		padding-right: 0%;
+ 		padding-bottom: 6%;
+    }
+
+    .workpic {
+    	width: 100%;
+    }
+}
+
