@@ -1,17 +1,43 @@
+<!DOCTYPE html>
+
 <html>
     <head>
-        <title>Nika Faith Ablao - Blackboard</title>
+        <title>Nika Faith Ablao</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <link rel="shortcut icon" href="../img/nfa.ico" type="image/x-icon">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>
+            $(document).ready(function() {
+                var par = $('.mLinks');
+                var x = $('#x_out');
+                var ham = $('#ham_menu');
+                $(x).hide();
+                $(par).hide();
+  
+                $(ham).click(function(e) {
+                    $(par).slideToggle();
+                    $(x).toggle();
+                    $(ham).toggle();
+                    $("body").css("overflow", "hidden");
+                    e.preventDefault();
+                });
+
+                $(x).click(function(e) {
+                    $(par).slideToggle();
+                    $(ham).toggle();
+                    $(x).toggle();
+                    $("body").css("overflow", "visible");
+                    e.preventDefault();
+                });
+            });
         </script>
     </head>
+
     <body>
         <!--header-->
         <div id="header">
-            <div id="header">
             <a href="../index.html"><img id="icon" src="../img/icon.png"></a>
+            <!--desktop menu-->
             <div id="menu">
                 <ul>
                     <li><a href="../index.html">WORK</a></li>
@@ -20,8 +46,53 @@
                     <li><a target="_blank" href="../NikaAblao_Portfolio2018.pdf">PDF PORTFOLIO</a></li>
                 </ul>
             </div>
-        </div>
-        </div>
+
+            <!--mobile menu-->
+            <div id="m_menu">
+            <a href="../index.html"><img id="m_icon" src="../img/icon.png"></a>
+            <svg id="ham_menu" width="31px" height="24px" viewBox="0 0 31 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Hi-Fidelity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                    <g id="Browse-V3" transform="translate(-16.000000, -34.000000)" stroke="#979797" stroke-width="4">
+                        <g id="Header">
+                            <g id="Hamburger-Menu" transform="translate(18.000000, 36.000000)">
+                                <path d="M0,0.8 L26.4,0.8" id="Path-6"></path>
+                                <path d="M0,9.6 L26.4,9.6" id="Path-6"></path>
+                                <path d="M0,19.2 L26.4,19.2" id="Path-6"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+
+
+            <svg id="x_out" width="30px" height="23px" viewBox="0 0 30 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                    <g id="X" transform="translate(-2.000000, -3.000000)" stroke="#979797" stroke-width="4">
+                        <g id="Hamburger-Menu" transform="translate(4.000000, 5.000000)">
+                            <path d="M0,0.8 L26,18.8" id="Path-6"></path>
+                            <path d="M0,18.8 L26,0.6" id="Path-6"></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+
+            <br><br><br>
+            <div class="mLinks">
+                <ul>
+                    <li><a href="../index.html">WORK</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a target="_blank" href="../NAblao_Resume.pdf">RESUME</a></li>
+                    <li><a target="_blank" href="../NikaAblao_Portfolio2018.pdf">PDF PORTFOLIO</a>
+                </ul>
+            </div>
+
+            </div>
 
         <div class="title_cont">
             <p class="worktitle"><span>Blackboard Conceptual Redesign</span></p>
