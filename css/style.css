@@ -309,7 +309,7 @@ span {
 }
 
 /*Responsive*/
-@media only screen and (max-width: 1000px) {    
+@media  and (max-width: 1000px) {    
     #bioPic_cont {
         width: 70%;
         padding-left: 15%;
@@ -388,7 +388,7 @@ span {
     } 
 }  
 
-@media only screen and (max-width: 700px) { 
+@media only screen and (max-width: 770px) { 
 	#m_icon {
 		display: block;
 		height: 40px;
@@ -493,4 +493,3 @@ span {
     	width: 100%;
     }
 }
-
