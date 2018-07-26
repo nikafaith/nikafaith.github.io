@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Nika Faith Ablao</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="shortcut icon" href="../img/nfa.ico" type="image/x-icon">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                var par = $('.mLinks');
+                var x = $('#x_out');
+                var ham = $('#ham_menu');
+                $(x).hide();
+                $(par).hide();
+  
+                $(ham).click(function(e) {
+                    $(par).slideToggle();
+                    $(x).toggle();
+                    $(ham).toggle();
+                    $("body").css("overflow", "hidden");
+                    e.preventDefault();
+                });
+
+                $(x).click(function(e) {
+                    $(par).slideToggle();
+                    $(ham).toggle();
+                    $(x).toggle();
+                    $("body").css("overflow", "visible");
+                    e.preventDefault();
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <!--header-->
+        <div id="header">
+            <a href="../index.html"><img id="icon" src="../img/icon.png"></a>
+            <!--desktop menu-->
+            <div id="menu">
+                <ul>
+                    <li><a href="../index.html">WORK</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a target="_blank" href="../NAblao_Resume.pdf">RESUME</a></li>
+                    <li><a target="_blank" href="../NikaAblao_Portfolio2018.pdf">PDF PORTFOLIO</a></li>
+                </ul>
+            </div>
+
+            <!--mobile menu-->
+            <div id="m_menu">
+            <a href="../index.html"><img id="m_icon" src="../img/icon.png"></a>
+            <svg id="ham_menu" width="31px" height="24px" viewBox="0 0 31 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Hi-Fidelity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                    <g id="Browse-V3" transform="translate(-16.000000, -34.000000)" stroke="#979797" stroke-width="4">
+                        <g id="Header">
+                            <g id="Hamburger-Menu" transform="translate(18.000000, 36.000000)">
+                                <path d="M0,0.8 L26.4,0.8" id="Path-6"></path>
+                                <path d="M0,9.6 L26.4,9.6" id="Path-6"></path>
+                                <path d="M0,19.2 L26.4,19.2" id="Path-6"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+
+
+            <svg id="x_out" width="30px" height="23px" viewBox="0 0 30 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+                <desc>Created with Sketch.</desc>
+                <defs></defs>
+                <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                    <g id="X" transform="translate(-2.000000, -3.000000)" stroke="#979797" stroke-width="4">
+                        <g id="Hamburger-Menu" transform="translate(4.000000, 5.000000)">
+                            <path d="M0,0.8 L26,18.8" id="Path-6"></path>
+                            <path d="M0,18.8 L26,0.6" id="Path-6"></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+
+            <br><br><br>
+            <div class="mLinks">
+                <ul>
+                    <li><a href="../index.html">WORK</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a target="_blank" href="../NAblao_Resume.pdf">RESUME</a></li>
+                    <li><a target="_blank" href="../NikaAblao_Portfolio2018.pdf">PDF PORTFOLIO</a>
+                </ul>
+            </div>
+
+            </div>
+
+        <div class="title_cont">
+            <p class="worktitle"><span>Social Media TestDrive</span></p>
+            <h3>2018</h3>
+            <img class="workpic" src="../img/TestDrive/Banner.png">
+        </div>
+
+        <div class="textCont">
+            <p class="worksubtitle">The Goal</p>
+            <p>In an effort to better educate children about smart social media practices such as using secure passwords, creating safe usernames, and discerning whether a site is trustworthy or not, the Cornell Social Media Lab collaborated with Common Sense Media to create lesson plans for teachers to educate their students in the classroom about Internet safety.</p>
+
+            <p>Over the course of a month, my team and I brainstormed, designed, and developed the site that will host these lesson plans, as well as additional information for parents to use to supplement the lectures. </p>
+
+            <p class="worksubtitle">The Brainstorm</p>
+            <div class="screen_cont"><img class="deskss" src="../img/TestDrive/Brainstorm.jpeg"></div>
+            <div class="widetext_box">
+                <p>While TestDrive's main users were teachers and parents, we decided that it should be clear that the receivers of the lessons are children. In order to do this, the team and I chose a bright color palette for the site. We particularly focused on green and blue in order to better visually represent the collaboration with Common Sense Media, which main colors are green and blue.</p>
+            </div>
+
+            <p class="worksubtitle">The Design</p>
+            <div class="screen_cont"><img class="deskss" src="../img/TestDrive/Landing Page.png"></div>
+            <div class="widetext_box">
+                <p>The full prototype of the site can be located <a href="https://invis.io/WPN6FEPKCRE">here</a>.</p>
+                <p>The lesson content that was produced by our fellow RAs was purely text based, so we designed the site in a way that would be able to communicate a fun, kid-friendly metaphor with little to no graphics. In order to do this, white backgrounds are almost exclusively on text-heavy areas such as on lesson pages, boxes of the lesson grids, or other articles. Otherwise, the background of the different sections are bright and colorful.</p>
+
+                <p>Another factor that played a major part in our design choices was the frontend development capabilities of the team. While I and another team member were very well versed in frontend development, the other two team members were just learning how to create sites with HTML, CSS, and Javascript. Because of this, we ensured that the site was kept relatively simple and largely based on different templates. This allowed these team members to view this project more as a learning experience rather than a stressful lab project. </p>
+            </div>
+
+            
+        </div>
+
+        <div id="footer">
+            <p>&#169; Nika Faith Ablao</p>
+        </div>
+
+    </body>
+</html>
